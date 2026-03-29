@@ -35,10 +35,7 @@ This project simulates a live streaming platform similar to YouTube Live. It inc
 ---
 
 ## 🌐 Live Demo
-
-
-
-
+https://regal-gnome-7dc7e3.netlify.app/
 
 ---
 
