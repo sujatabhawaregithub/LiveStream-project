@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Live Stream</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1 style="color:white;">LiveStream</h1>
+
+<div class="container">
+
+    <div class="video-section">
+        <div class="live">
+    <span class="dot"></span> LIVE
+</div>
+
+       <video id="video" autoplay muted loop playsinline>
+  <source src="video/Workshop.mp4" type="video/mp4">
+</video>
+        <p id="unmuteText">🔊 Click video to unmute</p>
+        <p class="buffer" id="buffer" style="display:none;">Buffering...</p>
+        <p class="status">Streaming Now...</p>
+        <p id="viewers">👀 1200 watching</p>
+    </div>
+
+    <div class="chat-section">
+        <h3>Live Chat</h3>
+
+        <div id="chatBox">
+            <p><b>User1:</b> Hi 👋</p>
+        </div>
+
+        <input type="text" id="input">
+        <button onclick="send()">Send</button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
